@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Work</title>
+</head>
+<body>
+
+    <style>
+
+        /* FONT SECTION */
+
+    
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            /* color: #fff; */
+            font-family: 'Tangerine', cursive;
+
+
+        }
+
+        .btn{
+            cursor: pointer;
+        }
+
+        section{
+            position: relative;
+            height: 90vh;
+        }
+
+        .container{
+            background: #fff;
+            box-shadow: -10px 5px 35px 12px black;
+            border-radius: 15px;
+            /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+            position: absolute;
+            max-width: 850px;
+            width: 100%;
+            height: 50vh;
+/* Horizntal */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+/* Vertical */
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+
+            margin: auto;
+        }
+
+        h1{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 25px;
+            color: #ffffff;
+            
+        }
+
+        h2{
+            position: absolute;
+            right: 5vw;
+            color: #ffffff;
+        }
+
+        p{
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        p a{
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+
+    <section>
+        <h1>If You Want TO See This Picture Plesae Click Here Bellow.</h1>
+        <div class="container">
+            <a href="https://www.google.com/"><input type="button" class="btn" value="Click Here" onclick="wish()"></a>
+        </div>
+    </section>
+    <h2>MADE BY--    <p><a href="http://codeingbazar.cu.ma/">codeingbazar.cu.ma</a></p>
+    </h2>
+</body>
+
+    <script>
+        function wish() {
+            alert("Thank You For Viseting Me");
+        }
+    </script>
+
+</html>
